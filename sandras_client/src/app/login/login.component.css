@@ -1,0 +1,39 @@
+.container{
+    background-image: url("../../../public/background-login.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 40%;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 200px;
+    height: 200px;
+}
+
+.filter{
+    width: 100vw;
+    height: 100vh;
+    margin:0;
+    position: absolute;
+    background-color: rgba(32, 32, 32, 0.5);
+    z-index:1;
+}
+
+.titulo{
+    font-size: 400%;
+    text-align: center;
+}
+
+.frame{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5%;
+    width: 30vw;
+    height: 70vh;
+    z-index: 11;
+}
